@@ -1,0 +1,7 @@
+[manifest]
+path = doom-mcx
+file = west.yml
+
+[zephyr]
+base = zephyr
+

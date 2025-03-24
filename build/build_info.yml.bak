@@ -1,0 +1,4 @@
+west:
+  command: C:\Python311\Scripts\west build -b qemu_cortex_a53 hello_world_raptor
+  topdir: C:\Users\gusta\OneDrive\Documents\GitHub
+  version: 1.3.0

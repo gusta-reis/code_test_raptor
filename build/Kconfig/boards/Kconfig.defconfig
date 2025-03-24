@@ -1,0 +1,2 @@
+# Load Zephyr board defconfig descriptions.
+osource "C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/boards/qemu/cortex_a53/Kconfig.defconfig"

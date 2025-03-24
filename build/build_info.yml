@@ -1,0 +1,46 @@
+cmake:
+  application:
+    configuration-dir: C:/Users/gusta/OneDrive/Documents/GitHub/code-test/zephyr/code_test_raptor/code_test_raptor/hello_world_raptor
+    source-dir: C:/Users/gusta/OneDrive/Documents/GitHub/code-test/zephyr/code_test_raptor/code_test_raptor/hello_world_raptor
+  board:
+    name: qemu_cortex_a53
+    path:
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/boards/qemu/cortex_a53
+    qualifiers: qemu_cortex_a53
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/bindings
+    files:
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/boards/qemu/cortex_a53/qemu_cortex_a53.dts
+    include-dirs:
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/include
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/include/zephyr
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/common
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/x86
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/xtensa
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/sparc
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/riscv
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/posix
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/nios2
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/arm64
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/arm
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts/arc
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/dts
+  kconfig:
+    files:
+     - C:/Users/gusta/OneDrive/Documents/GitHub/zephyr/boards/qemu/cortex_a53/qemu_cortex_a53_defconfig
+     - C:/Users/gusta/OneDrive/Documents/GitHub/code-test/zephyr/code_test_raptor/code_test_raptor/hello_world_raptor/prj.conf
+    user-files:
+     - C:/Users/gusta/OneDrive/Documents/GitHub/code-test/zephyr/code_test_raptor/code_test_raptor/hello_world_raptor/prj.conf
+  toolchain:
+    name: zephyr
+    path: C:/Users/gusta/zephyr-sdk-0.17.0
+  zephyr:
+    version: 4.1.99
+    zephyr-base: C:/Users/gusta/OneDrive/Documents/GitHub/zephyr
+version: 0.1.0
+west:
+  command: C:\Python311\Scripts\west build -b qemu_cortex_a53 hello_world_raptor
+  topdir: C:\Users\gusta\OneDrive\Documents\GitHub
+  version: 1.3.0
